@@ -8,18 +8,17 @@ import HeaderContent from './HeaderContent';
 
 
 const HeaderContainer = () => {
-    return (
-        <React.Fragment>
-            <header >
-                <ImageThumbnail />
-                <HeaderTitle />
-            
-            
-            
-            <HeaderContent />
-            </header>
-        </React.Fragment>
-    )
+  return (
+  
+    <header>
+      <ImageThumbnail />
+      <div className="header-text">
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
+    </header>
+  
+  )
 }
 
 export default HeaderContainer;

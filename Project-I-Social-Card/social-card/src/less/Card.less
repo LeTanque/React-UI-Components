@@ -1,0 +1,21 @@
+.card-container {
+  padding-left: 60px;
+  .card-border {
+    border: 1px solid @light-gray + 160%;
+    border-radius: 0 0 10px 10px;
+    margin: 0 10px 5px 10px;
+    img {
+      width: 100%;
+    }
+    .card-text {
+      padding: 10px;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+  &:hover {
+    transform: scale(1.03);
+    transition-duration: 0.75s;
+  }
+}
