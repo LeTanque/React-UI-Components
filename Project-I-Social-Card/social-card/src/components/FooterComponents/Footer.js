@@ -9,7 +9,8 @@ class Footer extends React.Component {  // Figured out state
     super(props);
     this.state = {
       repostTotal: 1,
-      lovesTotal: 3
+      lovesTotal: 3,
+      black: true
     };
   }
   addRepost() {
@@ -30,15 +31,15 @@ class Footer extends React.Component {  // Figured out state
           <div className="footer-icon message">
             <a href="#comment"><FiMessageCircle /></a>
           </div>
-          
+
           <div className="footer-icon repost" onClick={() => this.addRepost()}>
             <FiRepeat /> {this.state.repostTotal}
           </div>
-          
-          <div className="footer-icon love" onClick={(e) => this.addLove(e)}>
+
+          <div className="footer-icon love" onClick={() => this.addLove()}>
             <FiHeart /> {this.state.lovesTotal}
           </div>
-          
+
           <div className="footer-icon send">
             <a href="mailto:lamdba@lambda.com"><FiMail /> </a>
           </div>
@@ -48,7 +49,6 @@ class Footer extends React.Component {  // Figured out state
     );
   }
 };
-
 
 export default Footer;
 
