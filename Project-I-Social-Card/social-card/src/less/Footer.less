@@ -1,0 +1,28 @@
+footer {
+  background-color: @light-gray + 175%;
+  padding-left: 60px;
+  border-radius: 0 0 10px 10px;
+  .footer {
+    padding: 10px;
+    font-size: 1.8rem;
+    color: @light-gray + 125%;
+    display: flex;
+    svg { 
+      vertical-align: top; 
+    }
+    .footer-icon {
+      margin-right: 40px;
+      a {
+        color: @light-gray + 125%;
+        &:hover {
+          color: @black;
+          .transition(1s);
+        }
+      }
+      &:hover {
+        color: @black;
+        .transition(1s);
+      }
+    }
+  }
+}
