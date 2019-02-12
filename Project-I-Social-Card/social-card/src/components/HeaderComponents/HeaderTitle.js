@@ -2,9 +2,6 @@ import React from 'react';
 import '../../css/index.css'; // The less-compiled css for everything
 import moment from 'moment';
 
-// const moment = require('moment');
-
-
 const HeaderTitle = () => {
   return (
     <React.Fragment>

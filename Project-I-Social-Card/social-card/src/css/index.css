@@ -282,6 +282,15 @@ footer .footer svg {
 footer .footer .footer-icon {
   margin-right: 40px;
 }
+footer .footer .footer-icon a {
+  color: #b4b4b4;
+}
+footer .footer .footer-icon a:hover {
+  color: #000000;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  transition-duration: 1s;
+}
 footer .footer .footer-icon:hover {
   color: #000000;
   -webkit-transition-duration: 1s;
