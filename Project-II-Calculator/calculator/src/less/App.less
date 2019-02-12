@@ -1,0 +1,28 @@
+body { background-color: @black; }
+
+.container-calculator {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: @dark;
+  color: @light;
+  .border-style(3px; solid; @light);
+  .number-pad {
+    display: grid;
+    grid-template-columns: 75% 25%;
+
+  }
+}
+
+
+
+.boiling-water {
+  max-width: 300px;
+  margin: 100px auto 0 auto;
+  padding: 10px;
+  background-color: @light-gray;
+  color: @white;
+  fieldset {
+    text-align: center;
+  }
+}

@@ -1,0 +1,55 @@
+.actions {
+  .action-buttons {
+    background-color: @lambda-red;
+    color: @white;
+    text-align: center;
+    .calculator-height;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    h2.action-button {
+      
+      font-weight: 700;
+      .border-style(1px; solid; @light);
+      .calculator-button;
+    }
+  }
+}
+
+.numbers {
+  .number-buttons {
+    background-color: @white;
+    color: @black;
+    text-align: center;
+    .calculator-height;
+    display: grid;
+    grid-template-rows: 20%;
+    grid-template-columns: 33.33%;
+    grid-template-areas: 
+      "clear-button clear-button clear-button"
+      "number-button-row number-button-row number-button-row"
+      "number-button-row number-button-row number-button-row"
+      "number-button-row number-button-row number-button-row"
+      "zero-button zero-button zero-button";
+    .border-style(1px; solid; @light);
+    .clear-button {
+      grid-area: clear-button;
+      font-weight: 400;
+      .border-style(1px; solid; @light);
+      .calculator-button;
+    }
+
+    .number-button {
+      font-weight: 700;
+      .border-style(1px; solid; @light);
+      .calculator-button;
+    }
+    .zero-button {
+      grid-area: zero-button;
+      font-weight: 700;
+      .border-style(1px; solid; @light);
+      .calculator-button;
+    }
+    
+    
+  }
+}
