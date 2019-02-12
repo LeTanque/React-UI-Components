@@ -282,6 +282,12 @@ footer .footer svg {
 footer .footer .footer-icon {
   margin-right: 40px;
 }
+footer .footer .footer-icon:hover {
+  color: #000000;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  transition-duration: 1s;
+}
 .card-container {
   padding-left: 60px;
 }
