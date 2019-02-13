@@ -1,0 +1,325 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v8/J7aHnp1uDWRBEqV98dVQztYldFcLowEA.ttf) format('truetype');
+}
+.cltgray {
+  color: rgba(55, 55, 55, 0.5);
+}
+.font-title {
+  font-family: 'Share Tech Mono', monospace;
+}
+.font-logo {
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  color: #232323;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0.4rem;
+}
+h1,
+.h1 {
+  font-size: 4.2rem;
+  font-family: 'Share Tech Mono', monospace;
+}
+h2,
+.h2 {
+  font-size: 3.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h3,
+.h3 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h4,
+.h4 {
+  font-size: 2.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h5,
+.h5 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h6,
+.h6 {
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+li {
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+a:hover {
+  color: initial;
+  text-decoration: none;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container-basic {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.italic {
+  font-style: italic;
+}
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+.display-none {
+  display: none;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0px 6px 20px 3px rgba(55, 55, 55, 0.5);
+  border-radius: 10px;
+}
+body {
+  background-color: #000000;
+}
+.container-calculator {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #232323;
+  color: #aaaaaa;
+  border: 3px solid #aaaaaa;
+}
+.container-calculator .number-pad {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.boiling-water {
+  max-width: 300px;
+  margin: 100px auto 0 auto;
+  padding: 10px;
+  background-color: rgba(55, 55, 55, 0.5);
+  color: #ffffff;
+}
+.boiling-water fieldset {
+  text-align: center;
+}
+.calculator-display {
+  background-color: #232323;
+  color: #ffffff;
+  padding: 20px 5px;
+}
+.calculator-display h1 {
+  text-align: right;
+  letter-spacing: 5px;
+}
+.actions .action-buttons {
+  background-color: #a00000;
+  color: #ffffff;
+  text-align: center;
+  height: 500px;
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.actions .action-buttons h2.action-button {
+  font-weight: 700;
+  border: 1px solid #aaaaaa;
+  padding: 35px;
+  height: 100px;
+}
+.numbers .number-buttons {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  height: 500px;
+  display: grid;
+  grid-template-rows: 20%;
+  grid-template-columns: 33.33%;
+  grid-template-areas: "clear-button clear-button clear-button" "number-button-row number-button-row number-button-row" "number-button-row number-button-row number-button-row" "number-button-row number-button-row number-button-row" "zero-button zero-button zero-button";
+  border: 1px solid #aaaaaa;
+}
+.numbers .number-buttons .clear-button {
+  grid-area: clear-button;
+  font-weight: 400;
+  border: 1px solid #aaaaaa;
+  padding: 35px;
+  height: 100px;
+}
+.numbers .number-buttons .number-button {
+  font-weight: 700;
+  border: 1px solid #aaaaaa;
+  padding: 35px;
+  height: 100px;
+}
+.numbers .number-buttons .zero-button {
+  grid-area: zero-button;
+  font-weight: 700;
+  border: 1px solid #aaaaaa;
+  padding: 35px;
+  height: 100px;
+}
