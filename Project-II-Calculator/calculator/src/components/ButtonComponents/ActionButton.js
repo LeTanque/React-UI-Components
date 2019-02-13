@@ -5,7 +5,7 @@ class ActionButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = {  
-
+      operationPressed: ''
     }
   }
   numOperation(operationPressed) {

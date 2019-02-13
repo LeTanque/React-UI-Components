@@ -5,14 +5,17 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 // import ActionButton from './components/ButtonComponents/ActionButton';
 import BoilingCalculator from './components/BoilingWater';
 
-class App extends React.Component { 
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
 
-  render() {
+
+// class App extends React.Component { 
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//     };
+//   }
+
+
+const App = (props) => {
     return (
       
       <React.Fragment>
@@ -37,7 +40,6 @@ class App extends React.Component {
 
       </React.Fragment>
     );
-  }
 };
 
 export default App;

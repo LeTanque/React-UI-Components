@@ -13,9 +13,6 @@ function BoilingVerdict(props) {
   }
 }
 
-
-
-
 class BoilingCalculator extends React.Component {
   constructor(props) {
     super(props);
